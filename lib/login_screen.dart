@@ -1,5 +1,6 @@
 import "package:flutter/material.dart";
 import 'package:flutter/services.dart';
+import 'package:login/ListAllFootball.dart';
 import 'register_screen.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -95,7 +96,7 @@ class _LoginState extends State<Login> {
                       padding: EdgeInsets.fromLTRB(30, 20, 30, 20)),
                   onPressed: () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => Register()));
+                        MaterialPageRoute(builder: (context) => ListAllFootbal()));
                   }),
             ),
             Container(
